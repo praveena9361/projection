@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Docs</title>
+    <link rel="stylesheet" href="project.css">
+</head>
+<style>
+    @media only screen and (min-width:1025){
+        .mobile-only{
+            display: none !important; 
+        }
+        
+    }
+    @media only screen and (max-width:1026){
+        .desktop-only{
+            display:none !important;
+        }
+        
+    }
+    .html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: rgb(204, 161, 132);
+    filter:brightness(2px);
+}
+
+.nav{
+    height: 70px;
+    width: 1500px;
+    margin-right:40px;
+ margin-bottom: 20px;;
+}
+
+.main{
+    background-color: rgb(139, 83, 30);
+    width:1350px;
+    height:80px;
+}
+.logo{
+    float:left;
+    font-family:times new roman;
+    font-size:20px;
+    color: #8718b3;
+    background-color: #eae6eb;
+    margin-top:20px;
+    margin-left:40px;
+    width:100px;
+    height:35px;
+    text-align: center;
+    font-weight: bold;
+   border-radius: 10px;
+   border-color:#571515;
+ box-shadow: rgb(204, 189, 189) 0px 4px 20px; ;
+margin-left: 50px;;
+}
+.home{
+    float:left;
+    color:#fff;
+    text-decoration:none;
+    font-size:20px;
+    margin-left:80px;
+    margin-top:25px;
+}
+.home:hover{
+    text-decoration: underline;
+    opacity: 0.8;
+}
+.menu{
+    
+    float:left;
+   color:#fff;
+    text-decoration:none;
+    font-size:20px;
+    margin-left:130px;
+   margin-top:25px; 
+}
+.menu:hover{
+    text-decoration: underline;
+    opacity: 0.8;
+}
+
+.offer{
+    
+    float:left;
+   color:#fff;
+    text-decoration:none;
+    font-size:20px;
+    margin-left:130px;
+   margin-top:25px; 
+}
+.offer:hover{
+    text-decoration: underline;
+    opacity: 0.8;
+}
+.about{
+    
+    float:left;
+   color:#fff;
+    text-decoration:none;
+    font-size:20px;
+    margin-left:130px;
+   margin-top:25px; 
+}
+.about:hover{
+    text-decoration: underline;
+    opacity: 0.8;
+}
+.contact{
+    float:left;
+    color:#fff;
+    text-decoration:none;
+    font-size:20px;
+    margin-left:130px;
+    margin-top:25px;
+}
+.contact:hover{
+    text-decoration: underline;
+    opacity:0.8;
+}
+.location{
+    float:left;
+    color:#fff;
+    text-decoration:none;
+    font-size:20px;
+    margin-left:130px;
+    margin-top:25px;
+
+}
+.location:hover{
+    text-decoration: underline;
+   opacity:0.8;
+}
+.h1{
+    text-align: center;
+    margin-left:10px;
+    background-color: #8718b3;
+    width:150px;
+    transform: translateX(480px);
+    border-radius:15px;
+    cursor:pointer;
+    color:#fff;
+    width:250px;
+    
+}
+.p1{
+    font-size:18px;
+    font-family: arial;
+    width:800px;
+    line-height: 20px;
+    color:#422308;
+    margin-left:300px;
+    margin-top:10px;
+    
+}
+.div1{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left:10px;
+    column-gap: 10px;
+    row-gap: 20px;
+}
+.coffee-card{
+    background-color: #fff;
+    padding:20px;
+    width:200px;
+    border-radius:10px;
+    box-shadow: 0 4px 8px rgb(189, 184, 184);
+}
+.img1{
+    width:200px;
+    height:90px;
+    object-fit: cover;
+}
+.coffee-card-2{
+    background-color: #fff;
+    padding:20px;
+    width:200px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgb(238, 237, 237);
+}
+.img2{
+    width:200px;
+    height:90px;
+object-fit: cover;
+}
+.coffee-card-3{
+    background-color:#fff;
+    width:200px;
+    padding: 20px;
+    border-radius:10px;
+    box-shadow: 0 4px 8px #d8d0d0;
+}
+.img3{
+    width:200px;
+    height:100px;
+    object-fit: cover;
+}
+h1{
+    margin-left: 10px;
+}
+.coffee-card-4{
+    background-color:#fff;
+    width:200px;
+    padding:20px;
+    border-radius: 10px;
+    box-shadow:0 4px 8px #d8d0d0;
+}
+.img4{
+    width:200px;
+    height:90px;
+    object-fit: cover;
+}
+.coffee-card-5{
+    background-color: #fff;
+    width:200px;
+    padding:20px;
+    border-radius: 10px;
+    box-shadow: #d8d0d0 0px 4px 8px;
+}  
+.img5{
+    width:200px;
+    height:90px;
+    object-fit: cover;
+}
+.coffee-card-6{
+    background-color: #fff;
+    width:200px;
+    border-radius: 10px;
+    padding:20px;
+    box-shadow:#d8d0d0 0px 4px 8px;
+}
+.img6{
+    width:200px;
+    height:130px;
+    object-fit: cover;
+}
+.coffee-card-7{
+    width:200px;
+    background-color: #fff;
+    padding:20px;
+    border-radius: 10px;
+    box-shadow: #d8d0d0 0px 4px 8px;
+}
+.img7{
+    width:200px;
+    height:100px;
+    object-fit: cover;
+}
+.coffee-card-8{
+    background-color:#fff;
+    width:200px;
+    padding:20px;
+    border-radius: 10px;
+    box-shadow: #d8d0d0 0px 4px 8px;
+}
+.img8{
+    width:200px;
+    height:150px;
+    object-fit: cover;
+}
+.coffee-card-9{
+    background-color:#fff;
+    width:200px;
+    padding:20px;
+    border-radius: 10px;
+    box-shadow: #d8d0d0 0px 4px 8px;
+}
+.img9{
+    width:200px;
+    height:100px;
+    object-fit: cover;
+}
+.bt1{
+    font-weight: bold;
+    width: 100px;
+    height: 45px;
+    border-radius: 30px;
+    font-size: 15px;
+    font-family: sans-serif;
+    border:none;
+    color: white;
+    background-color: #9c612d;
+    transition: 0.7s;
+    margin-left: 30px;
+}
+.bt1:hover{
+    opacity: 0.9;
+}
+.dessert-card1{
+    background-color: #fff;
+    width:200px;
+    border-radius: 10px;
+    padding:20px;
+    box-shadow: #d8d0d0 0px 4px 8px;
+}
+.img10{
+width:200px;
+height:120px;
+object-fit: cover;
+}
+h3{
+    margin-left: 50px;
+}.dessert-card2{
+    background-color: #fff;
+    width:200px;
+    border-radius: 10px;
+    padding:20px;
+    box-shadow: #d8d0d0 0px 4px 8px;
+}
+.img11{
+width:200px;
+height:100px;
+object-fit: cover;
+}
+.dessert-card3{
+    background-color: #fff;
+    width:200px;
+    border-radius: 10px;
+    padding:20px;
+    box-shadow: #d8d0d0 0px 4px 8px;
+}
+.img12{
+width:200px;
+height:120px;
+object-fit: cover;
+}
+.dessert-card4{
+    background-color: #fff;
+    width:200px;
+    border-radius: 10px;
+    padding:20px;
+    box-shadow: #d8d0d0 0px 4px 8px;
+}
+.img14{
+width:200px;
+height:130px;
+object-fit: cover;
+}
+.dessert-card5{
+    background-color: #fff;
+    width:200px;
+    border-radius: 10px;
+    padding:20px;
+    box-shadow: #d8d0d0 0px 4px 8px;
+}
+.img15{
+width:200px;
+height:130px;
+object-fit: cover;
+}
+.chat-card1{
+    background-color: #fff;
+    width:200px;
+    border-radius: 10px;
+    padding:20px;
+    box-shadow: #d8d0d0 0px 4px 8px;
+}
+.img15{
+width:200px;
+height:120px;
+object-fit: cover;
+}
+.chat-card2{
+    background-color: #fff;
+    width:200px;
+    border-radius: 10px;
+    padding:20px;
+    box-shadow: #d8d0d0 0px 4px 8px;
+}
+.img16{
+width:200px;
+height:100px;
+object-fit: cover;
+}
+.coffee-card2{
+    background-color: #fff;
+    width:200px;
+    border-radius: 10px;
+    padding:20px;
+    box-shadow: #d8d0d0 0px 4px 8px;
+
+}
+.img-2{
+    width:200px;
+height:100px;
+object-fit: cover;
+}
+.coffee-card1{
+    background-color: #fff;
+    width:200px;
+    border-radius: 10px;
+    padding:20px;
+    box-shadow: #d8d0d0 0px 4px 8px;
+
+}
+.img-1{
+    width:200px;
+height:100px;
+object-fit: cover;
+}
+.email{
+    text-decoration: none;
+    color:#fff;
+    font-size:20px;
+    font-weight: bold;
+}
+
+.div-card{
+  text-align: center;
+ height:200px;
+  width:300px;
+  background-color: #771fbe;
+  justify-items: center;
+  margin-left:100px;
+  color:#000000;    
+}
+.image{
+    width:50px;
+    height:40px;
+    object-fit: cover;
+}
+.tab{
+    margin-left: 100px;
+    width:300px;
+    height:280px;
+    background-color: #9e5b24;
+}
+.loc{
+    color:#fff;
+    font-size:30px;
+    text-align: center;
+    margin-right: 10px;;
+}
+.tab1{
+    width:300px;
+    height:250px;
+    background-color: #8718b3;
+    margin-left: 100px;
+}
+.about1{
+    font-size:28px;
+    color:white;
+    margin-left:100px;
+    text-decoration: none;
+}
+.back{
+    font-size: 20px;
+    text-decoration: none;
+    color:#851414;
+    margin-left: 100px;
+   }
+</style>
+<body>
+    
+   <div class="nav">
+    <div class="main">
+    <div class="logo">
+Sparkel☕︎
+    <div class="icon">
+    </div>
+    </div>
+    <div>
+<a class="home" href="#home">Home</a>
+<a class="menu" href="#menu">Menu</a>
+<a class="contact" href="#contact">Contact</a>
+<a class="location" href="#location">Location</a>
+<a class="offer" href="#offer">Offers</a>
+<a class="about" href="#about">About us</a>
+</div>
+</div>
+<section id="home">
+    <h1 class="h1">Sparkle Cafe!</h1>
+    <br>
+    <p class="p1">Welcome to Sparke's cafe.  Desserts and Many type of Coffees are here!
+        <br>
+        Where every cup tells a single story and evry bite brings comfort.  Our cafe is a perfect place to relax,spend time with your friends, and enjoy every sip of coffee, That coffee made your day!
+    </p><br>
+      </section>
+    <section id="menu">
+    <div class="div1">
+        <div class="coffee-card">
+           
+        <img class="img1" src="https://iili.io/qqFzO7e.jpg">
+         <h1>Espresso</h1>
+         <p>Strong and thinken coffee</p>
+         
+         <details>
+         <summary>  Ingredients:</summary>
+            <p>
+          
+            1. Finely ground coffee beans-7 to 9 grams.<br>
+            2. 30ml  Hot water
+            </p>
+         </details>
+          <br>
+          <h3>&#x20B9; 30</h3>
+        <button class="bt1">Order Now</button> 
+        </div>
+          <div class="coffee-card">
+           
+        <img class="img-1" src="https://iili.io/qqFc4tt.jpg">
+         <h1>Cartado</h1>
+         <p> Thinkened coffee</p>
+         
+         <details>
+         <summary>  Ingredients:</summary>
+            <p>
+          
+            1. <Espresso-1shot>(30ml)</Espresso-1shot>.<br>
+            2. Warm milk-30ml<br>
+            3. Very light microfoam-Thin layer
+            </p>
+         </details>
+          <br>
+          <h3>&#x20B9;55</h3>
+        <button class="bt1">Order Now</button> 
+        </div>
+    <div class="coffee-card-2">
+        <img class="img2" src="https://iili.io/qqFEBR4.jpg">
+        <h1>Cappuccino</h1>
+        <p>Sip! Taste! Enjoy!</p>
+     <details>
+        <summary>Ingredients:</summary>
+        <p>
+           1. Espresso shot-1(30ml)<br>
+           2. Steamed milk-60 ml<br>
+           3. Milk foam-60 ml
+        </p>
+     </details>
+      <br>
+      <h3>&#x20B9;90</h3>
+    <button class="bt1">Order Now</button>  
+    </div>
+     <div class="coffee-card-3">
+         <img class="img3" src="https://iili.io/qqFGevj.jpg">
+         <h1>Latte</h1>
+         <p>Hello My name is Latte!</p>
+         <details>
+         <summary>Ingredients:</summary>
+         <p>1.Milk<br>
+            2.Shot espresso coffee<br>
+            3.Light milk foam.
+         </p>
+         </details>
+         <h3>&#x20B9;50</h3>
+          <br>
+         <button class="bt1">Order Now</button> 
+     </div>
+    
+    <div class="coffee-card-4">
+    <img class="img4" src="https://iili.io/qqFW8uf.jpg">
+    <h1>Iced Coffee</h1>
+    <p>Hey!! This is ice filled coffee</p>
+    <details>
+        <summary>Ingredients</summary>
+        <p>1. Milk<br>
+        2. shot espresso<br>
+        3. ice cubes<br>
+        4. venilla essence or chocolate syrup </p>
+    </details>
+     <br>
+     <h3>&#x20B9;40</h3>
+    <button class="bt1">Order Now</button> 
+    </div> 
+    <div class="coffee-card-5">
+    <img class="img5" src="https://iili.io/qqakMcG.jpg">
+     <h1>Americano</h1>
+     <p>Americano is my name! I will give you a pleasure</p>
+     <details>
+        <summary>Ingredients</summary>
+        <p>
+            1. 1 shot espresso coffee<br>
+            2. 1/2 to 1 cup hot water
+        </p>
+     </details>
+      <br>
+      <h3>&#x20B9;20</h3>
+     <button class="bt1">Order Now</button> 
+    </div>
+    <div class="coffee-card2">
+        <img class="img-2" src="https://iili.io/qqavp1e.jpg">
+        <h1>White flat</h1>
+        <p> Enjoy That foams!</p>
+     <details>
+        <summary>Ingredients:</summary>
+        <p>
+           1. Espresso shot-1(30ml)<br>
+           2. fresh milk(full cream milk)-120 ml<br>
+           3. Microfoam-60 ml
+        </p>
+     </details>
+      <br>
+      <h3>&#x20B9;80</h3>
+    <button class="bt1">Order Now</button>  
+    </div>
+    <div class="coffee-card-6">
+        <img class="img6" src="https://iili.io/qqaSf9f.jpg">
+        <h1>Mocha</h1>
+        <p>Creamy Mocha is here!</p>
+        <details>
+        <summary>Ingredients</summary>
+        <p>
+            1. 1 shot espresso<br>
+            2. Chocolate syrup<br>
+            3. Steamed Milk<br>
+            4. Whipped cream       
+        
+        </p>
+        </details>
+         <br>
+         <h3>&#x20B9;80</h3>
+        <button class="bt1">Order Now</button> 
+            </div>
+        <div class="coffee-card-7">
+            <img class="img7" src="https://iili.io/qqaSDle.jpg">
+            <h1>Filter Coffee</h1>
+            <p>A day strats with filter coffee!</p>
+            <details>
+                <summary>Ingredients
+                </summary>
+                <p>1. 2 tbsp filter coffe<br>
+                   2. Hot water<br>
+                   3. Boiled milk<br>
+                   4. 1-2 tsp sugar
+                
+                </p>
+            </details>
+             <br>
+             <h3>&#x20B9;30</h3>
+            <button class="bt1">Order Now</button> 
+        </div>
+        <div class="coffee-card-8">
+         <img class="img8" src="https://iili.io/qqaUSLB.jpg">
+         <h1>Mocchiato</h1>
+         <p>Taste the layer of foams!</p>
+         <details>
+            <summary>Ingredients</summary>
+            <p>
+                1. 1 shot espresso<br>
+                2. milk<br>
+                3. 1-2 tablespoons vanilla syrup<br>
+                4. Caramel sauce<br>
+                5. Ice cubes.
+            </p>
+         </details>
+          <br>
+          <h3>&#x20B9;90</h3>
+         <button class="bt1">Order Now</button> 
+        </div>
+        <div class="coffee-card-9">
+            <img class="img9" src="https://iili.io/qqarVSe.jpg">
+            <h1>Regular Coffee</h1>
+            <p>A Day without coffee? coffee without a day?</p>
+            <details>
+                <summary>Ingredients</summary>
+                <p>1. Boiled Milk<br>
+                   2. hot water<br> 
+                   3. 1-2tsp coffee powder<br>
+                   4. sugar(optional)
+                </p>
+
+            </details>
+            <br>
+            <h3>&#x20B9;15</h3>
+         <button class="bt1">Order Now</button>
+        </div>
+        <div class="dessert-card1">
+            <img class="img10" src="https://iili.io/qqa6FTJ.jpg">
+            <h1>brownie</h1>
+             <p>That fluffy brownie</p>
+            <h3>&#x20B9;70</h3>
+            <button class="bt1">Order Now</button>
+        </div>
+         <div class="dessert-card2">
+            <img class="img11" src="https://iili.io/qqa66nR.jpg">
+            <h1>Coconut Ice Cream</h1>
+             <p>Enjoy the new Taste!</p>
+            <h3>&#x20B9;40</h3>
+            <button class="bt1">Order Now</button>
+        </div>
+        <div class="dessert-card3">
+            <img class="img12" src="https://iili.io/qqaPTKB.jpg">
+            <h1>Donut</h1>
+             <p> Hey I am  a donut just try me!</p>
+            <h3>&#x20B9;30</h3>
+            <button class="bt1">Order Now</button>
+        </div>
+            <div class="dessert-card5">
+            <img class="img15" src="https://iili.io/qqaP8f2.jpg">
+            <h1>Roll Bread</h1>
+            <p>Rolled Bread with Chocolate filled</p>
+            <h3>&#x20B9;60</h3>
+            <button class="bt1">Order Now</button>
+        </div>
+        <div class="dessert-card4">
+            <img class="img14" src="https://iili.io/qqaiEzb.jpg">
+            <h1>Mousse</h1>
+             <p> My taste will around your mouth!</p>
+            <h3>&#x20B9;70</h3>
+            <button class="bt1">Order Now</button>
+        </div>
+        <div class="chat-card1">
+            <img class="img15" src="https://iili.io/qqaipEl.jpg">
+            <h1>Peanut Salad</h1>
+            <p>Peanut with veggies</p>
+            <h3>&#x20B9;20</h3>
+            <button class="bt1">Order Now</button>
+            
+        </div>
+    <div class="chat-card2">
+        <img class="img16" src="https://iili.io/qqaLJPR.jpg">
+        <h1>Samosa</h1>
+        <p>1 Plate of samosa</p>
+        <h3>&#x20B9; 20</h3>
+        <button class="bt1">Order Now</button>
+    </div>
+    </section>
+    <br>
+    <hr>
+    <div class="container">
+
+    <section id="contact">
+        <div class="div-card">
+
+            <h1>Contact Us</h1>
+            <a class="email" href="mailto:praveena0512vee@gmail.com">📩 Email to cafe</a>
+            <p style="font-weight: bold; color: #fff; margin-left: 5px; font-size:18px;">📞 phone no: 55555-55555</p>
+           <h4> &lt; &lt;&copy;Sparkels&gt; &gt;</h4>
+        </div>
+        </div>
+        
+    </section>
+    <br>
+    <hr>
+    <section id="location">
+    <fieldset class="tab">
+      <p class="loc">📍Location</p>
+   <br>
+      <p>
+     <ul style="margin-left: 20px; font-size: 18px; color:whitesmoke;">
+       <li>Sparkels Cafe ☕︎</li> <br>
+      <li>Anna Road ,North street.</li><br>
+      <li>Chinna palli palayam.</li>
+      </ul>
+    </p>
+    </fieldset>
+</section>
+<hr>
+<section id="offer">
+<fieldset class="tab1">
+   <p style=" margin-right:10px; text-align: center; color:white;font-size: 24px; font-family: 'Times New Roman';text-decoration:#d4d4d4 underline;">Offers</p> 
+<ul style="color:white; line-height: 23px; font-size: 18px;">
+    <li>Monday offer - 2 brownie = &#x20B9;120</li>
+    <li>Wednesday offer -Mousse and Cappuccino = &#x20B9; 60 only </li>
+    <li>Sunday offer -White flat , Roll Bread and cartado=&#x20B9; 53only</li>
+</ul>
+</fieldset>
+</section>
+ <hr>
+ <section id="about">
+    <a class="about1" href="aboutus.html">&lt; &lt;&copy;Sparkels☕︎&gt; &gt;</a>
+ </section>
+ <br>
+ <hr>
+ <a href="#" class="back">&lt; &lt; &copy;Back to top&gt; &gt;</a>
+</body>
+</html>
